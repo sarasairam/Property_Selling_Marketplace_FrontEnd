@@ -1,0 +1,51 @@
+.Main-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: bisque;
+}
+.card{
+    padding: 30px;
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+}
+.radio-arrange{
+    display: flex;
+    flex-direction: row;
+}
+.submit-button{
+    width:100px;
+}
+.label{
+    font-weight: 500;
+    font-size: 20px;
+    margin-top: 15px;
+}
+.label-role{
+    font-weight: 400;
+    font-size: 14px;
+    margin-left: 10px;
+}
+.role-input{
+    margin-left: 5px;
+}
+@media screen and (max-width:768px) {
+    .Main-container{
+        background-color: aqua;
+    }
+    .form{
+        padding: 10px;
+        background-color: bisque;
+        display: flex;
+        flex-direction: column;
+        border-radius: 20px;
+    }
+    .label{
+        font-weight: 400;
+        font-size: 16px;
+    }
+}
